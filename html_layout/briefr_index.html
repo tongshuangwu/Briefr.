@@ -1,0 +1,127 @@
+
+<!-------------------------------------------------------------------------------->
+<!--    Created : 2014/Jul/17                                                   -->
+<!--    project : Briefr.html                                                   -->
+<!-------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html class="ocks-org do-not-copy">
+<meta charset="utf-8">
+<title> Briefr. </title>
+<style>
+
+@import url("/lib/style.css");
+
+#category {
+    top :50px;
+    float: right;
+    width: 270px
+}
+
+#categoryBar {
+    width: 200px
+}
+
+#login{
+    top: 10px;
+    float: right;
+    width: 400px;
+}
+
+#usernameInput{
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+
+
+#passwdInput{
+    position: relative;
+    left: 170px;
+    top: 0px;
+}
+
+#title{
+    color : red;
+}
+
+.twitterUser{
+    color : blue;
+    width: 900px;
+
+}
+.twitterTitle{
+    color: #000;
+    font-family: "PT Sans", sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    font-weight: 700;
+    margin: .3em 0 .1em 0;
+}
+
+.content {
+    position: relative;
+    color :#545454;
+    font-family: "PT Serif", serif;
+    font-size: 15px;
+    left: 40px;
+    font-weight: normal;
+    line-height : 23px;
+}
+
+.readMore{
+    font-family: "PT Serif", serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-align:right;
+
+}
+</style>
+
+<header>2014 / 07 / 17 | Thu</header>
+
+<div id = "login">
+        <label for="username" id="usernameLable">ID</label>
+        <input type="text" name="username" id="username" />
+        <label for="passwd" id="passwdLabel">password</label>
+        <input type="text" name="passwd" id="passwd" />
+</div>
+<div id="category">
+<select name="category" id = "categoryBar">
+    <option value="">Select categories</option>
+    <option value="activeP">Biology</option>
+    <option value="passiveP">Business</option>
+    <option value="dropins">Technology</option>
+
+</select>
+</div>
+
+<h1 id = "title">Briefr.</h1>
+
+<div id = "post">
+    <div class = "twitterUser">@ Steve Jobs
+        <div class = "twitterTitle">Apple, IBM in Massive Enterprise Hardware, Software Partnership
+            <p class = "content">
+                IBM said it would create a class of more than 100 business applications exclusively for iPhones and iPads to run on Apple's iOS platform. In return, IBM will sell Apple's products with 100 industry-specific apps to its clients worldwide...
+            </p>
+            <p class = "readMore">
+                <a href="http://www.linkedin.com/lite/external-redirect?url=http%3A%2F%2Fwww%2Ecnbc%2Ecom%2Fid%2F101834316&urlHash=4fVn">Click to read more...</a>
+            </p>
+        </div>
+    <div>
+<div>
+
+<footer>2014 / 07 / 17 | Thu</footer>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="../lib/html5slider.js"></script>
+<script src="../lib/jquery-1.9.1.min.js"></script>
+<script type="text/javascript"></script>
+<script>
+    
+    GoogleAnalyticsObject = "ga", ga = function() { ga.q.push(arguments); }, ga.q = [], ga.l = +new Date;
+    ga("create", "UA-48272912-3", "ocks.org");
+    ga("send", "pageview");
+    
+    </script>
+<script async src="//www.google-analytics.com/analytics.js"></script>
